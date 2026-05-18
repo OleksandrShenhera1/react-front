@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: "BaseNeue";
+    src: url("./fonts/BaseNeue-WideLight.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+
+  }
+
+  body {
+    font-family: sans-serif, BaseNeue;
+  }
+}
